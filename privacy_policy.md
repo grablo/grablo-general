@@ -296,11 +296,11 @@
 
     가.  개인정보 보호 책임자
     
-    1)  성명: 김영민
-    
-    2)  직책: CEO
-    
-    3)  이메일: support@grablo.co
+        1. 성명: 김영민
+        
+        2. 직책: CEO
+        
+        3. 이메일: support@grablo.co
 
  
 
