@@ -2,6 +2,7 @@
   "id": "grablo-update-0.22.0",
   "enabled": true,
   "type": "info",
+  "expiresAt": "2026-01-14T00:00:00Z",
   "ko": {
     "message": "🤖 Grablo v0.22.0 업데이트! Teachable Machine, Edge Impulse 등 Custom AI 모델을 연동할 수 있습니다.",
     "linkText": "자세히 보기",
