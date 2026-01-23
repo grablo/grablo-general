@@ -1,16 +1,16 @@
 {
-  "id": "grablo-update-0.22.0",
+  "id": "grablo-update-1.0.0",
   "enabled": true,
-  "type": "info",
-  "expiresAt": "2026-01-14T00:00:00Z",
+  "type": "warning",
+  "expiresAt": "2026-02-23T00:00:00Z",
   "ko": {
-    "message": "🤖 Grablo v0.22.0 업데이트! Teachable Machine, Edge Impulse 등 Custom AI 모델을 연동할 수 있습니다.",
+    "message": "⚠️ Grablo v1.0.0 정식 출시! 기존 컨트롤러와 호환되지 않으니 컨트롤러를 1.0.0으로 업데이트해주세요.",
     "linkText": "자세히 보기",
-    "linkUrl": "https://doc.grablo.co/grablo-0-22-0-%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8/"
+    "linkUrl": "https://doc.grablo.co/grablo-1-0-0-%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8/"
   },
   "en": {
-    "message": "🤖 Grablo v0.22.0 Update! Now supports Custom AI models including Teachable Machine and Edge Impulse.",
+    "message": "⚠️ Grablo v1.0.0 Official Release! Not compatible with existing controllers. Please update your controller to 1.0.0.",
     "linkText": "Learn more",
-    "linkUrl": "https://doc.grablo.co/en/grablo-0-22-0-update/"
+    "linkUrl": "https://doc.grablo.co/en/grablo-1-0-0-update/"
   }
 }
