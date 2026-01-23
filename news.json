@@ -9,7 +9,7 @@
     "linkUrl": "https://doc.grablo.co/grablo-1-0-0-%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8/"
   },
   "en": {
-    "message": "Grablo v1.0.0 Official Release! Not compatible with existing controllers. Please update your controller to 1.0.0.",
+    "message": "Grablo v1.0.0 Official Release! Not compatible with older controllers. Please update your controller to 1.0.0.",
     "linkText": "Learn more",
     "linkUrl": "https://doc.grablo.co/en/grablo-1-0-0-update/"
   }
