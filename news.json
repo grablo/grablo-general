@@ -1,15 +1,15 @@
 {
-  "id": "grablo-update-1.0.0",
+  "id": "grablo-update-1.1.0",
   "enabled": true,
   "type": "warning",
-  "expiresAt": "2026-02-23T00:00:00Z",
+  "expiresAt": "2026-02-28T00:00:00Z",
   "ko": {
-    "message": "Grablo v1.0.0 정식 출시! 기존 컨트롤러와 호환되지 않으니 컨트롤러를 1.0.0 이상으로 업데이트해주세요.",
+    "message": "Grablo v1.1.0 업데이트! QR/바코드·OCR·제스처 인식, 라인트래킹 등 AI 비전 기능이 추가되었습니다.",
     "linkText": "자세히 보기",
     "linkUrl": "https://doc.grablo.co/grablo-1-0-0-%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8/"
   },
   "en": {
-    "message": "Grablo v1.0.0 Official Release! Not compatible with older controllers. Please update your controller to 1.0.0 or later.",
+    "message": "Grablo v1.1.0 Update! New AI vision features: QR/Barcode, OCR, gesture recognition, and line tracking.",
     "linkText": "Learn more",
     "linkUrl": "https://doc.grablo.co/en/grablo-1-0-0-update/"
   }
