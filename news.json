@@ -1,7 +1,7 @@
 {
   "id": "grablo-update-1.1.0",
   "enabled": true,
-  "type": "warning",
+  "type": "info",
   "expiresAt": "2026-02-28T00:00:00Z",
   "ko": {
     "message": "Grablo v1.1.0 업데이트! QR/바코드·OCR·제스처 인식, 라인트래킹 등 AI 비전 기능이 추가되었습니다.",
