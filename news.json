@@ -1,16 +1,16 @@
 {
-  "id": "grablo-update-1.2.0",
+  "id": "grablo-update-1.3.0",
   "enabled": true,
   "type": "info",
-  "expiresAt": "2026-03-31T00:00:00Z",
+  "expiresAt": "2026-04-30T00:00:00Z",
   "ko": {
-    "message": "Grablo v1.2.0 업데이트! 대시보드 신규 위젯 5종, 이미지 업로드, 클라우드 파일 다운로드, 커뮤니티 기능이 추가되었습니다.",
+    "message": "Grablo v1.3.0 업데이트! TURN 트래픽 관리, AI 모델 클라우드 다운로드, 파일 업로드 한도 증가, 카메라 TURN 릴레이 지원이 추가되었습니다.",
     "linkText": "자세히 보기",
-    "linkUrl": "https://doc.grablo.co/grablo-1-2-0-%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8/"
+    "linkUrl": "https://doc.grablo.co/grablo-1-3-0-%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8/"
   },
   "en": {
-    "message": "Grablo v1.2.0 Update! 5 new dashboard widgets, image upload, cloud file download, and community features.",
+    "message": "Grablo v1.3.0 Update! TURN traffic management, AI model cloud download, increased upload limit, and camera TURN relay support.",
     "linkText": "Learn more",
-    "linkUrl": "https://doc.grablo.co/en/grablo-1-2-0-update/"
+    "linkUrl": "https://doc.grablo.co/en/grablo-1-3-0-update/"
   }
 }
