@@ -1,15 +1,15 @@
 {
-  "id": "grablo-windows-release",
+  "id": "grablo-macos-release",
   "enabled": true,
   "type": "warning",
-  "expiresAt": "2026-03-24T00:00:00Z",
+  "expiresAt": "2026-03-30T00:00:00Z",
   "ko": {
-    "message": "윈도우용 Grablo가 출시되었습니다! 이제 Windows에서도 Grablo를 사용해보세요.",
+    "message": "MacOS용 Grablo가 출시되었습니다! 이제 Mac에서도 Grablo를 사용해보세요.",
     "linkText": "다운로드",
     "linkUrl": "https://grablo.co/download"
   },
   "en": {
-    "message": "Grablo for Windows is here! Try Grablo on your Windows PC now.",
+    "message": "Grablo for MacOS is here! Try Grablo on your Mac now.",
     "linkText": "Download",
     "linkUrl": "https://grablo.co/download"
   }
