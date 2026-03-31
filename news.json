@@ -1,16 +1,16 @@
 {
-  "id": "grablo-macos-release",
+  "id": "grablo-mobile-release",
   "enabled": true,
   "type": "warning",
-  "expiresAt": "2026-03-30T00:00:00Z",
+  "expiresAt": "2026-04-14T00:00:00Z",
   "ko": {
-    "message": "MacOS용 Grablo가 출시되었습니다! 이제 Mac에서도 Grablo를 사용해보세요.",
+    "message": "Grablo 모바일 앱 출시! 푸시 알림으로 어디서든 실시간 알림을 받아보세요.",
     "linkText": "다운로드",
-    "linkUrl": "https://grablo.co/download"
+    "linkUrl": "https://grablo.co/download#mobile-app"
   },
   "en": {
-    "message": "Grablo for MacOS is here! Try Grablo on your Mac now.",
+    "message": "Grablo Mobile App is here! Get real-time push notifications wherever you are.",
     "linkText": "Download",
-    "linkUrl": "https://grablo.co/download"
+    "linkUrl": "https://grablo.co/download#mobile-app"
   }
 }
