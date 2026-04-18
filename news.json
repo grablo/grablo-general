@@ -1,16 +1,16 @@
 {
-  "id": "grablo-mobile-release",
+  "id": "grablo-update-1.7.0",
   "enabled": true,
-  "type": "warning",
-  "expiresAt": "2026-04-14T00:00:00Z",
+  "type": "info",
+  "expiresAt": "2026-05-31T00:00:00Z",
   "ko": {
-    "message": "Grablo 모바일 앱 출시! 푸시 알림으로 어디서든 실시간 알림을 받아보세요.",
-    "linkText": "다운로드",
-    "linkUrl": "https://grablo.co/download#mobile-app"
+    "message": "Grablo v1.7.0 업데이트! Zigbee 장치 지원, 데이터 로깅, AI 분석 모델 5종(라인 카운팅·화재/동작/손동작 인식·소리 분류), 감지 영역 드래그 설정이 추가되었습니다.",
+    "linkText": "자세히 보기",
+    "linkUrl": "https://doc.grablo.co/grablo-1-7-0-%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8/"
   },
   "en": {
-    "message": "Grablo Mobile App is here! Get real-time push notifications wherever you are.",
-    "linkText": "Download",
-    "linkUrl": "https://grablo.co/download#mobile-app"
+    "message": "Grablo v1.7.0 Update! Zigbee device support, data logging, and 5 new AI analysis models (line counting, fire/action/hand motion recognition, sound classification).",
+    "linkText": "Learn more",
+    "linkUrl": "https://doc.grablo.co/en/grablo-1-7-0-update/"
   }
 }
