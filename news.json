@@ -2,7 +2,7 @@
   "id": "grablo-update-1.7.0",
   "enabled": true,
   "type": "info",
-  "expiresAt": "2026-05-31T00:00:00Z",
+  "expiresAt": "2026-05-02T00:00:00Z",
   "ko": {
     "message": "Grablo v1.7.0 업데이트! Zigbee 장치 지원, 데이터 로깅, AI 분석 모델 5종(라인 카운팅·화재/동작/손동작 인식·소리 분류), 감지 영역 드래그 설정이 추가되었습니다.",
     "linkText": "자세히 보기",
