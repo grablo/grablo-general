@@ -1,207 +1,222 @@
 # GRABLO PRIVACY POLICY
 
-**Effective Date: August 8, 2025**
+**Effective Date: May 7, 2026** (originally effective August 8, 2025)
 
-## PURPOSE OF THIS PRIVACY POLICY
+## PURPOSE OF THIS POLICY
 
-We are committed to respecting and protecting the privacy rights of our users. We created this privacy policy (the "Policy") to give you notice of how your private information will be collected, used and shared as you use our Services. Any capitalized term not defined in this Policy will have the meaning set forth in our Terms of Service. All references to "we", "us", "our", or "Grablo" refer to Grablo Inc., a corporation incorporated under Korean law.
+We are committed to respecting and protecting the privacy rights of our users. This privacy policy (the "Policy") explains how Grablo Inc. and its affiliates ("Grablo", "we", "us", "our") collect, use, share, and protect your personal information when you use our Services. Capitalized terms not defined here have the meanings given in our Terms of Service. Grablo is a corporation organized under the laws of the Republic of Korea.
 
 ## SUMMARY
 
-In simplified form (greater detail is below), our Policy can be summarized as follows:
-- We collect minimal information about you: only your email address and name
-- We store your project data on our servers to provide the Services
-- **We do NOT store browser-controller communication data on our servers**
-- We do not knowingly collect information from children under 14 years of age
-- We will not sell your personal information
-- We may share aggregate, anonymous information about service usage
-- We comply with Korean privacy laws including the Personal Information Protection Act
+In short:
+- We collect a **minimal** set of personal information — primarily account, social-login, content you create, and information needed to operate specific features
+- We do **not** route your **voice/audio** through our servers (TTS/STT calls go directly from your Controller to third-party providers using your own keys)
+- We do **not** store your **IP address**, browser, or device fingerprint in our application database
+- We do **not** use **analytics or ad-tracking** tools (no Google Analytics, Sentry, or similar)
+- We do **not** sell your personal information
+- We do **not** charge for the Services and therefore do **not** collect payment or financial data
+- We comply with the Korean Personal Information Protection Act (PIPA) and, where applicable, the EU/UK GDPR and U.S. state privacy laws (CCPA/CPRA and similar)
 
 ## 1. SCOPE OF THIS POLICY
 
-This Policy applies to all users of the Grablo Services, whether you access our services through grablo.co, doc.grablo.co, or any related platforms. Please read this Policy carefully, as it describes how we collect, use and share your information. By accessing and using the Services, you consent to this Policy.
+This Policy applies to all users of the Grablo Services (the "Services"), including grablo.co, doc.grablo.co, our mobile applications, the Grablo Controller software, and the Gallery and Community Service. By accessing or using the Services, you confirm that you have read this Policy.
 
-## 2. INFORMATION WE COLLECT
+## 2. PERSONAL DATA WE COLLECT
 
-### 2.1 Information You Provide
-When you register for a Grablo account, you must provide us with:
+### 2.1 Information you provide
 - **Email address** (required)
 - **Name** (required)
+- **Password** (required for credential-based sign-up; stored as a one-way bcrypt hash)
+- **Social-login data** (only if you choose to sign in with Google, Naver, Kakao, or Apple): the identifier (externalId), email, name (or nickname) released by the provider with your consent, and a refresh token where the provider returns one (used to keep you signed in)
+- **Optional**: profile avatar (uploaded by you, max 5 MB), marketing-communications consent flag
 
-### 2.2 Project Data
-We collect and store:
-- **Project Data**: Your no-code programming projects, algorithm block configurations, dashboard settings, and related project information that you create using our Services
+### 2.2 Content you create
+- **Project Data**: block programs, logic, dashboard configurations
+- **Gallery / Community User Posts**: titles, descriptions, attached images (cover/thumbnail), comments, likes, bookmarks
+- **Project sharing**: recipient email address when you share via email
+- **Customer-support inquiries**
 
-### 2.3 Information We Collect Automatically
-We may automatically collect certain technical information when you use our Services, including:
-- Device information (such as device type, operating system)
-- Browser information
-- IP address
-- Usage patterns and interaction with the Services
+### 2.3 Information we process only when a feature is used
+- **Push tokens** (FCM for Android, APNs for iOS) — only if you install the mobile app and allow notifications
+- **TURN traffic usage** — cumulative bytes (monthly reset) used for quota management when you use WebRTC P2P video streaming
+- **Quota counters** — file storage used / project count
 
-### 2.4 Controller Communication Data
-**IMPORTANT NOTICE**: We do **NOT** collect, store, or process any communication data between your web browser and Controller devices (such as Raspberry Pi, PC, etc.). All controller communication occurs directly between your browser and your hardware device and does not pass through our servers.
+### 2.4 Information generated by service operation
+- **Login session** and **cookies** (see Section 14) — to keep you signed in and remember preferences
+- **Account-activity timestamps** (last login, password change)
+- **User preferences** (language, theme, last visited project, favorites)
 
-### 2.5 Cookies and Tracking Technologies
-We use cookies and similar technologies to:
-- Remember your login status
-- Improve your user experience
-- Analyze service usage patterns
+### 2.5 Sensitive data and biometrics
+- We do **not** collect special categories of personal data (sensitive or biometric) on our servers.
+- If you use the AI Analysis Features (face recognition, fingerprint, etc.) on your Controller, enrollment data is created and stored **locally on your Controller** and is **not** transmitted to Grablo.
 
-You can control cookie settings through your browser preferences.
+### 2.6 What we do NOT process
+- **Voice / audio data** — TTS (text-to-speech) and STT (speech-to-text) calls run directly from your Controller to the third-party provider (e.g., Google Cloud, OpenAI, ElevenLabs) using **your own API keys**. Audio never traverses Grablo servers and is not logged.
+- **IP address, browser fingerprint, device identifier** — not stored in our application database.
+- **Analytics / ad-tracking** — no Google Analytics, Sentry, or similar tooling.
+- **Payment, financial, or location data** — not collected while the Services are free.
 
-## 3. HOW WE USE YOUR INFORMATION
+### 2.7 Browser-to-Controller communication
+Communication data between your browser and Controller devices does **not** pass through, or get stored on, Grablo servers. WebRTC P2P video may be relayed by Cloudflare TURN where direct connection is unavailable; signaling (SDP/ICE metadata) is exchanged via our MQTT broker (see Section 8).
 
-We use your information for the following purposes:
+## 3. HOW WE COLLECT PERSONAL DATA
 
-### 3.1 Service Provision
-- To create and manage your account
-- To provide access to the Grablo platform
-- To store and sync your projects across devices
-- To enable project sharing and collaboration features
+- Directly from you (sign-up, profile editing, social login, content posting, support inquiries)
+- From third-party identity providers when you choose social login (Google / Naver / Kakao / Apple)
+- Generated by service operation (session, cookies, preference state)
 
-### 3.2 Communication
-- To respond to your questions and support requests
-- To send important service notifications
-- To notify you of updates to our Terms of Service or Privacy Policy
+## 4. PURPOSES AND LEGAL BASES FOR PROCESSING
 
-### 3.3 Service Improvement
-- To analyze usage patterns and improve our Services
-- To develop new features and functionality
-- To ensure platform security and prevent abuse
+| Purpose | GDPR Art. 6 basis | Korean PIPA basis |
+|---|---|---|
+| Account creation and management; user identification; service provision (Project Data hosting, Gallery, push notifications, project sharing) | Performance of contract (6(1)(b)) | PIPA Art. 15(1)4 — contract |
+| Customer support, transactional communications | Performance of contract (6(1)(b)) | PIPA Art. 15(1)4 |
+| Service security, fraud prevention, abuse mitigation, dispute resolution | Legitimate interests (6(1)(f)) / legal obligation (6(1)(c)) | PIPA Art. 15(1)2/6 |
+| Compliance with legal obligations | Legal obligation (6(1)(c)) | PIPA Art. 15(1)2 |
+| Marketing communications (newsletters, event invitations) | Consent (6(1)(a)) — separately collected and revocable | PIPA Art. 15(1)1 |
 
-### 3.4 Legal Compliance
-- To comply with applicable Korean laws and regulations
-- To respond to legal requests from authorities when required by law
+We do **not** carry out automated decisions producing legal or similarly significant effects, and we do not engage in individual profiling for marketing.
 
-## 4. HOW WE SHARE YOUR INFORMATION
+## 5. HOW WE SHARE PERSONAL DATA
 
-### 4.1 We Do Not Sell Personal Information
-We do not sell, rent, or trade your personal information to third parties for marketing purposes.
+### 5.1 We do not sell personal information
+We do not sell, rent, or trade your personal information. Under the California Consumer Privacy Act (CCPA/CPRA) and similar U.S. state laws, we do not "sell" or "share" personal information for cross-context behavioral advertising.
 
-### 4.2 Service Providers
-We may share information with third-party service providers who assist us in:
-- Cloud hosting and data storage
-- Email communication services
-- Analytics and service monitoring
-- Customer support
+### 5.2 Service providers (processors)
+We share information with the third-party processors listed in Section 8 to operate the Services. Each is contractually bound to process personal data only on our instructions and to protect it.
 
-These providers are contractually bound to protect your information and use it only for specified purposes.
+### 5.3 Legal disclosures
+We may disclose personal data when required by law, court order, regulatory request, or to protect rights, safety, and property.
 
-### 4.3 Legal Requirements
-We may disclose your information when required by Korean law or in response to:
-- Court orders or legal processes
-- Government investigations
-- Protection of our rights and safety
-- Prevention of fraud or illegal activities
+### 5.4 Business transfers
+If Grablo is involved in a merger, acquisition, asset sale, or similar transaction, personal data may be transferred subject to confidentiality obligations and applicable law.
 
-### 4.4 Business Transfers
-If Grablo is involved in a merger, acquisition, or sale of assets, your information may be transferred as part of that transaction.
+### 5.5 Aggregate / de-identified information
+We may share aggregated or de-identified information that does not identify any individual.
 
-### 4.5 Aggregate Information
-We may share anonymized, aggregate information about service usage that cannot identify individual users.
+## 6. HOW LONG WE RETAIN PERSONAL DATA
 
-## 5. DATA STORAGE AND SECURITY
+| Category | Retention |
+|---|---|
+| Account information | Until account deletion, then deleted without delay |
+| Project Data and User Posts | Until you delete them or close your account |
+| Push tokens | Until token expiration or unregistration on logout |
+| Profile avatar / post images (Cloudflare R2) | Until you delete the underlying record |
+| TURN usage counter | Cumulative; reset monthly on account anniversary |
+| Abuse-prevention records | Up to 1 year after account deletion |
+| Backup copies | Up to 90 days after deletion of the underlying record |
+| Consumer-complaint and dispute records | 3 years (Korea Act on the Consumer Protection in Electronic Commerce) |
 
-### 5.1 Data Storage Location
-Your personal information and Project Data are stored on secure servers. We implement appropriate technical and organizational measures to protect your data against unauthorized access, alteration, disclosure, or destruction.
+## 7. YOUR RIGHTS
 
-### 5.2 Data Retention
-We retain your personal information and Project Data for as long as:
-- Your account remains active
-- Necessary to provide the Services
-- Required by applicable Korean law
+Subject to applicable law (Korean PIPA, EU/UK GDPR, CCPA/CPRA, and similar):
 
-When you delete your account, we will delete your personal information and Project Data in accordance with our data retention schedule.
+- **Access**: receive a copy of personal data we hold about you
+- **Rectification**: correct inaccurate or incomplete data
+- **Erasure**: delete your data, subject to legal retention exceptions
+- **Restriction**: limit processing in certain circumstances
+- **Objection**: object to processing based on legitimate interests, including direct marketing
+- **Portability**: receive your data in a structured, commonly used, machine-readable format
+- **Withdraw consent**: at any time, where consent is the legal basis (without affecting prior processing)
+- **No automated decisions**: not be subject to a decision based solely on automated processing producing legal or similarly significant effects (we do not currently engage in such automated decision-making)
+- **Right to lodge a complaint** with the supervisory authority in your country of residence (in Korea: PIPC, www.pipc.go.kr)
 
-### 5.3 Security Measures
-We implement industry-standard security measures including:
-- Encryption of data in transit and at rest
-- Regular security assessments
-- Access controls and authentication
-- Monitoring for suspicious activities
+To exercise your rights, contact us at **support@grablo.co**. We respond within the timeframe required by applicable law (generally 10 days under Korean PIPA, 30 days under GDPR). We may verify your identity.
 
-However, no internet transmission is completely secure, and we cannot guarantee absolute security.
+## 8. PROCESSORS WE USE
 
-## 6. YOUR RIGHTS AND CHOICES
+| Processor | Purpose | Categories processed | Country | Retention |
+|---|---|---|---|---|
+| Cloudflare, Inc. | Image storage (R2) and WebRTC TURN relay | Uploaded images (avatar, post covers); TURN session metadata | United States / global edge | R2: until record deletion / TURN: not retained beyond processing |
+| Google LLC (Firebase) | Android push notifications (FCM) | Push token, notification metadata | United States | Until token expiration or unregistration |
+| Apple Inc. (APNs) | iOS push notifications | Push token, notification metadata | United States | Until token expiration or unregistration |
+| Namecheap, Inc. (PrivateEmail) | Outbound email from Grablo (sign-up verification, password reset, etc.) | Recipient address, message body | United States | Not retained beyond delivery |
+| Google LLC | Google social login | OAuth identifier, email, name, refresh token | United States | Until account deletion or social-login disconnection |
+| NAVER Corp. | Naver social login | OAuth identifier, email, name | Republic of Korea | Until account deletion or social-login disconnection |
+| Kakao Corp. | Kakao social login | OAuth identifier, email, nickname | Republic of Korea | Until account deletion or social-login disconnection |
+| Apple Inc. | Apple Sign-In | OAuth identifier, email (relay possible), name | United States | Until account deletion or social-login disconnection |
 
-Under Korean privacy law, you have the following rights:
+We update this table when we add, remove, or change processors.
 
-### 6.1 Access and Correction
-- Request access to your personal information
-- Request correction of inaccurate information
-- Update your account information at any time
+**Note on third-party services you use directly through your Controller** (e.g., Google Cloud / OpenAI / ElevenLabs for TTS/STT, Telegram bots you operate, Home Assistant): these are services you contract for and call with **your own credentials**; they are **not** Grablo processors and their processing is governed by their own terms and privacy policies.
 
-### 6.2 Deletion
-- Request deletion of your personal information
-- Delete your account and associated data
+## 9. INTERNATIONAL TRANSFERS
 
-### 6.3 Data Portability
-- Request a copy of your Project Data in a machine-readable format
+Some processors above are located outside your country of residence. Where we transfer personal data outside Korea or the EEA/UK, we rely on:
 
-### 6.4 Consent Withdrawal
-- Withdraw consent for data processing where consent is the legal basis
-- Opt out of marketing communications
+- **Adequacy decisions** where applicable
+- **Standard Contractual Clauses (SCCs)** approved by the European Commission, with supplementary measures where needed
+- **Your explicit consent** for specific transfers when required by Korean PIPA Art. 28-8
 
-### 6.5 Exercising Your Rights
-To exercise these rights, contact us at support@grablo.co or write to us at the address listed below.
+You may object to international transfers; in that case the related feature (push notifications, social login, image upload, P2P video) may be unavailable to you.
 
-## 7. CHILDREN'S PRIVACY
+## 10. SECURITY MEASURES
 
-Our Services are not intended for children under 14 years of age, and we do not knowingly collect personal information from children under 14. If you are a parent or guardian and believe your child has provided us with personal information, please contact us immediately at support@grablo.co.
+Per Korean PIPA Art. 29 and Enforcement Decree Art. 30:
 
-## 8. INTERNATIONAL DATA TRANSFERS
+- **Administrative**: privacy officer, internal management plan, regular employee training, minimum-necessary access principle
+- **Technical**: one-way bcrypt hashing of passwords, TLS encryption in transit, access controls, malware monitoring, AES-256 encryption of credentials stored on the Controller
+- **Physical**: secured server-facility access controls and locking devices
 
-If you access our Services from outside Korea, please note that your information may be transferred to, stored, and processed in Korea. By using our Services, you consent to such transfer and processing.
+No internet transmission is fully secure; we cannot guarantee absolute security but apply industry-standard safeguards.
 
-## 9. CHANGES TO THIS POLICY
+## 11. PERSONAL DATA BREACH NOTIFICATION
 
-We may update this Policy from time to time. We will notify you of material changes by:
-- Posting an updated Policy on our website
-- Sending notice to your registered email address
-- Providing prominent notice on our Services
+In the event of a personal-data breach affecting your information, we will notify affected users without undue delay (within 72 hours where required by GDPR Art. 33–34 or Korean PIPA Art. 34) and notify the relevant supervisory authority where required. The notice will include affected categories, time and circumstances, recommended user actions, our response, and contact points.
 
-Your continued use of the Services after the effective date of changes constitutes acceptance of the updated Policy.
+## 12. CHILDREN'S PRIVACY
 
-## 10. COOKIE POLICY
+We apply the following age thresholds based on residence:
 
-### 10.1 Types of Cookies We Use
-- **Essential Cookies**: Required for basic service functionality
-- **Analytics Cookies**: Help us understand how users interact with our Services
-- **Preference Cookies**: Remember your settings and preferences
+- **Republic of Korea**: under 14 — collection requires legal-guardian consent (PIPA Art. 22-2)
+- **United States (COPPA)**: under 13 — we do not knowingly collect personal data
+- **EU/EEA (GDPR Art. 8)**: under 16 (or the lower age set by the relevant Member State, no lower than 13) — collection requires parental consent
 
-### 10.2 Managing Cookies
-You can control cookies through your browser settings:
+If you believe your child has provided personal data to us without proper consent, contact **support@grablo.co** and we will delete the data without delay.
+
+## 13. MOBILE APP PERMISSIONS
+
+Per Korean Information and Communications Network Act Art. 22-2:
+
+- **Required**: notifications (push delivery)
+- **Optional**: camera (profile photos), photos / storage (avatar and post images), microphone (audio streaming with the Controller)
+
+You may revoke optional permissions at any time in your device settings; the related feature will be disabled accordingly.
+
+## 14. COOKIES AND SIMILAR TECHNOLOGIES
+
+We use cookies for essential session management (login state) and to remember user preferences (language, theme, dismissed banners). **We do not use analytics or ad-tracking cookies.**
+
+You may control cookies through your browser settings. Blocking essential cookies will limit access to log-in-required features.
+
+Browser-specific instructions:
+- **Edge**: Settings > Cookies and site permissions > Manage cookies and site data
 - **Chrome**: Settings > Privacy and security > Cookies and other site data
 - **Firefox**: Settings > Privacy & Security > Cookies and Site Data
 - **Safari**: Preferences > Privacy > Manage Website Data
-- **Edge**: Settings > Cookies and site permissions > Cookies and site data
+- **Whale**: Settings > Privacy > Cookies and other site data
 
-## 11. COMPLIANCE WITH KOREAN LAW
+## 15. CHANGES TO THIS POLICY
 
-This Policy is designed to comply with:
-- Personal Information Protection Act (개인정보보호법)
-- Act on Promotion of Information and Communications Network Utilization and Data Protection (정보통신망 이용촉진 및 정보보호 등에 관한 법률)
-- Other applicable Korean privacy regulations
+We may amend this Policy. For material changes we will provide notice on the Grablo Site, by email, or via in-Service notification at least 30 days before the effective date (or 7 days for non-material changes). Where local law requires longer notice or specific procedures, those requirements prevail.
 
-## 12. CONTACT INFORMATION
+## 16. PRIVACY OFFICER AND CONTACT
 
-### 12.1 Privacy Officer
-If you have questions about this Policy or our privacy practices, please contact:
-
-**Grablo Inc.**  
-Privacy Officer: Young-Min Kim  
-Address: 8, Dunsan-ro, Seo-gu, Daejeon, Republic of Korea  
-Email: support@grablo.co  
+**Grablo Inc.**
+Privacy Officer: Young-Min Kim (CEO)
+Address: 8, Dunsan-ro, Seo-gu, Daejeon, Republic of Korea
+Email: support@grablo.co
 Website: grablo.co
 
-### 12.2 Data Protection Authorities
-If you believe we have not adequately addressed your privacy concerns, you may file a complaint with:
+## 17. SUPERVISORY AUTHORITIES
 
-**Personal Information Protection Commission**  
-Website: privacy.go.kr  
-Phone: (국번없이) 182
+For Korean residents:
+- **Personal Information Protection Commission (PIPC)** — www.pipc.go.kr
+- **Personal Information Dispute Mediation Committee** — 1833-6972 (www.kopico.go.kr)
+- **Korea Internet & Security Agency (KISA) Privacy Infringement Report Center** — 118 (privacy.kisa.or.kr)
+
+For users in the EU/EEA, please contact your national data-protection authority.
 
 ---
 
-*Last Updated: August 8, 2025*
+*Last Updated: May 7, 2026*
