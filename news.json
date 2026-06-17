@@ -1,16 +1,16 @@
 {
-  "id": "grablo-update-1.15.0",
+  "id": "grablo-update-1.20.0",
   "enabled": true,
   "type": "info",
-  "expiresAt": "2026-06-09T00:00:00Z",
+  "expiresAt": "2026-07-01T00:00:00Z",
   "ko": {
-    "message": "Grablo v1.15.0 업데이트! LLM AI 질의 기능이 추가되었습니다.",
+    "message": "Grablo v1.20.0 업데이트! 이제 Home Assistant 애드온과 Docker로 설치할 수 있습니다.",
     "linkText": "자세히 보기",
-    "linkUrl": "https://doc.grablo.co/grablo-iot-core-1-15-0-%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8/"
+    "linkUrl": "https://doc.grablo.co/grablo-iot-core-1-20-0-%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8/"
   },
   "en": {
-    "message": "Grablo v1.15.0 Update! LLM AI Query is now available.",
+    "message": "Grablo v1.20.0 Update! Grablo can now be installed as a Home Assistant Add-on or via Docker.",
     "linkText": "Learn more",
-    "linkUrl": "https://doc.grablo.co/en/grablo-iot-core-1-15-0-update/"
+    "linkUrl": "https://doc.grablo.co/en/grablo-iot-core-1-20-0-update/"
   }
 }
