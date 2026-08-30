@@ -1,6 +1,6 @@
 # GRABLO TERMS OF SERVICE
 
-**Effective Date: May 7, 2026** (originally effective August 8, 2025)
+**Effective Date: May 7, 2026** (originally effective August 8, 2025; Section 6 — paid services, subscriptions, and withdrawal — amended effective October 1, 2026)
 
 Welcome to the Grablo Platform Services (the "Grablo Site"). Grablo Inc. and/or its affiliates ("Grablo", "we" or "us") provides the Grablo Site to you subject to the following terms of use (the "Terms"). By visiting the Grablo Site or using our Services, you accept these Terms.
 
@@ -96,20 +96,37 @@ You may **not** use the Services, AI Analysis Features, Connected Devices, or Us
 
 You are solely responsible for any use of the Services in violation of this Section 5.3 and for any resulting damages.
 
-## 6. SERVICE PLANS AND FEES
+## 6. SERVICE PLANS, FEES, AND SUBSCRIPTIONS
 
-### 6.1 Current Free Service
-The Services are currently provided free of charge. We may introduce paid subscription plans in the future.
+### 6.1 Free and Paid Services
+The core Services are available free of charge. We may offer paid services of two kinds: (a) **subscription plans** billed on a monthly or annual basis, and (b) **one-time paid digital content** such as paid gallery templates. The features, prices, billing cycle, and refund conditions of each paid service are displayed on our website before you pay. Existing users always retain the option to continue with the available free features.
 
-### 6.2 Future Paid Plans
-We reserve the right to introduce paid subscription plans with enhanced features. If we introduce paid plans:
-- We will provide at least 30 days' advance notice
-- Existing users will have the option to continue with available free features or upgrade to paid plans
-- All fees will be clearly posted on our website
-- Payment will be required in advance for paid plans
+### 6.2 Purchases Are Made on the Web
+Paid services are purchased through our website only. Payments are processed by external payment processors or, for certain regions, by a merchant of record; we do not store raw payment credentials such as card or bank account numbers.
 
-### 6.3 Changes to Pricing
-We may change our pricing structure at any time with appropriate notice to users.
+### 6.3 Automatic Renewal
+Unless you cancel, a subscription automatically renews at the end of each billing period, and the renewal fee is charged automatically to your registered payment method. For plans priced by quantity or usage, the renewal amount is calculated according to the pricing basis disclosed at checkout (for example, the number of registered devices or cameras). Automatic renewal, the pricing basis, and how to cancel are disclosed at checkout.
+
+### 6.4 Cancellation
+You may cancel a subscription at any time from the service screens. Cancellation stops future renewals; your paid benefits remain available until the end of the period you have already paid for. Refunds for the current period are governed by Section 6.6.
+
+### 6.5 Changes to Pricing
+If we change subscription pricing, we will give advance notice (at least 30 days for changes unfavorable to you), and the new price applies from the first renewal after the announced effective date. If you do not agree, you may cancel before that renewal.
+
+### 6.6 Withdrawal and Refunds
+- If you reside in the Republic of Korea, you may withdraw your purchase within 7 days of payment (or of the start of service, whichever is later) under the Act on the Consumer Protection in Electronic Commerce. Withdrawal may be restricted where permitted by that Act, for example once subscription benefits have been used or digital content has been downloaded or copied; any such restriction is disclosed at checkout. Refunds for valid withdrawals are made within 3 business days.
+- If we fail to provide a paid service due to causes attributable to us, you may request an extension of the service period or a refund for the remaining period.
+- If a payment is refunded or charged back, the corresponding paid benefits (plan tier, digital-content entitlement) may be revoked.
+- Nothing in this section limits any non-waivable statutory rights you have in your country of residence.
+
+### 6.7 Free Trials
+We may offer free trial periods for subscriptions. The trial terms, and whether and when the trial converts to a paid subscription, are disclosed in advance. If you cancel before the trial converts, you are not charged.
+
+### 6.8 Minors
+If a minor makes a payment without the consent of a legal guardian, the minor or the guardian may cancel the payment as provided by applicable law.
+
+### 6.9 Erroneous Payments
+Overpayments and erroneous payments are refunded by the same payment method where possible; otherwise we will notify you and refund by another method.
 
 ## 7. INTELLECTUAL PROPERTY
 
@@ -304,4 +321,4 @@ We may provide notice to you under these Terms by posting a notice on the Grablo
 
 **IF YOU DO NOT AGREE TO THESE TERMS, PLEASE DO NOT USE THE SERVICES.**
 
-*Last Updated: May 7, 2026*
+*Last Updated: October 1, 2026*
