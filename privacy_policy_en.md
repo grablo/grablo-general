@@ -19,7 +19,7 @@ In short:
 
 ## 1. SCOPE OF THIS POLICY
 
-This Policy applies to all users of the Grablo Services (the "Services"), including grablo.co, doc.grablo.co, our mobile applications, the Grablo Controller software, and the Gallery and Community Service. By accessing or using the Services, you confirm that you have read this Policy.
+This Policy applies to all users of the Grablo Services (the "Services"), including grablo.co, our mobile applications, the Grablo Controller software, and the Gallery and Community Service. By accessing or using the Services, you confirm that you have read this Policy.
 
 ## 2. PERSONAL DATA WE COLLECT
 

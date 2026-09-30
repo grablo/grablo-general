@@ -18,7 +18,7 @@ Welcome to the Grablo Platform Services (the "Grablo Site"). Grablo Inc. and/or 
 
 **"Project Data"** means the no-code programming projects, dashboards, configurations, and related data that you create and store on our servers through the Services.
 
-**"Services"** means the Grablo no-code IoT platform, including our websites (grablo.co, doc.grablo.co), web-based development environment, algorithm block programming interface, device libraries, web dashboards, and related support services.
+**"Services"** means the Grablo no-code IoT platform, including our website (grablo.co), web-based development environment, algorithm block programming interface, device libraries, web dashboards, and related support services.
 
 **"Your Content"** means Content that you or any End User transfers to us for processing, storage or hosting by the Services in connection with your account, including Project Data.
 
