@@ -1,6 +1,6 @@
 # GRABLO TERMS OF SERVICE
 
-**Effective Date: May 7, 2026** (originally effective August 8, 2025; Section 6 — paid services, subscriptions, and withdrawal — amended effective October 1, 2026)
+**Effective Date: May 7, 2026** (originally effective August 8, 2025; Section 6 — paid services, subscriptions, and withdrawal — amended effective October 1, 2026; Section 6.6 refund window extended to 14 days effective October 19, 2026)
 
 Welcome to the Grablo Platform Services (the "Grablo Site"). Grablo Inc. and/or its affiliates ("Grablo", "we" or "us") provides the Grablo Site to you subject to the following terms of use (the "Terms"). By visiting the Grablo Site or using our Services, you accept these Terms.
 
@@ -114,7 +114,7 @@ You may cancel a subscription at any time from the service screens. Cancellation
 If we change subscription pricing, we will give advance notice (at least 30 days for changes unfavorable to you), and the new price applies from the first renewal after the announced effective date. If you do not agree, you may cancel before that renewal.
 
 ### 6.6 Withdrawal and Refunds
-- If you reside in the Republic of Korea, you may withdraw your purchase within 7 days of payment (or of the start of service, whichever is later) under the Act on the Consumer Protection in Electronic Commerce. Withdrawal may be restricted where permitted by that Act, for example once subscription benefits have been used or digital content has been downloaded or copied; any such restriction is disclosed at checkout. Refunds for valid withdrawals are made within 3 business days.
+- You may cancel any purchase, including an automatic renewal payment, and receive a full refund within 14 days of payment (or of the start of service, whichever is later), for any reason. This applies even if you have started using the subscription benefits or the digital content has been delivered. Refunds are made within 3 business days of receiving your request.
 - If we fail to provide a paid service due to causes attributable to us, you may request an extension of the service period or a refund for the remaining period.
 - If a payment is refunded or charged back, the corresponding paid benefits (plan tier, digital-content entitlement) may be revoked.
 - Nothing in this section limits any non-waivable statutory rights you have in your country of residence.
